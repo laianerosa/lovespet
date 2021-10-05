@@ -1,0 +1,282 @@
+/*css header todas as paginas*/
+
+header {
+    background: linear-gradient(#159ED8, #80D6FA);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto ;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+   /*position: relative; left: 800px; : 150px;*/
+  
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold  ;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+
+color: #c78c19;
+text-decoration: underline;
+
+}
+
+
+/*css footer todas as paginas*/
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(#80D6FA, #159ED8);
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
+/* css geral*/
+body {
+    font-family: 'montserrat', sans-serif;
+    background: linear-gradient(#80D6FA,#80D6FA );
+    }
+    
+
+/*css pagina home*/
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    background: linear-gradient(white,#80D6FA);
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #159ED8;
+
+}
+
+
+.produtos li h2:hover {
+    font-size: 24px;
+
+}
+
+.produtos h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco  {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    
+}
+
+.banner {
+    width: 100%;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+    background: linear-gradient(#80D6FA, #eaf4fc);
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+        font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+
+/* css pagina ong*/
+
+.main-mapa {
+    background: linear-gradient(#80D6FA, white, #80D6FA);
+
+}
+.mapa {
+    padding: 3em 0;
+    justify-content: center 
+}
+
+.mapa-conteudo {
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+
+/* css pagina animais*/
+
+.pagina-animal {
+
+    background: linear-gradient(#80D6FA, white, #80D6FA);
+}
+
+.animais-desc{
+    padding-right: 15px;
+
+}
+
+
+
+.animais-img {
+    align-items: left;
+    width: 200px;
+    float:inline-start;
+    margin: 0 20px 20px 0;
+    padding: 20px;
+    padding-right: 15px;
+    display: block;
+}
+
+
+
+/*css pagina formulario*/
+
+
+.corpo-cor {
+    background: linear-gradient(#80D6FA, white, #80D6FA);
+}
+
+.form {
+
+    background: linear-gradient(#80D6FA, white, #80D6FA);
+    padding-left: 5%;
+}
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+    
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+    background-color: #f3ecec;
+    border-color: #f3ecec;
+}   
+
+.checkbox {
+    margin: 20px 0;
+}
+    
+
+.enviar {
+    width: 15%;
+    padding: 15px 0;
+    background-color: #159ED8;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+    
+   
+}
+
+.enviar:hover {
+    background: #80D6FA;
+    transform: scale(1.1) rotate(360deg);
+    
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+th {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 15px 100px ;
+}
+

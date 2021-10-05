@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+     
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Love's Pet - Formulário </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat?query=mon#standard-styles">
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa">
+                <h1> <img src="logo.png" ></h1>
+
+                <nav>
+                <ul >
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="ongs.html">Ongs</a></li>
+                    <li><a href="animais.html">Animais</a></li>
+                    <li><a href="Formulario.html">Formulário</a></li>
+                </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="form">
+           
+                <form>
+                    <h2 class="titulo-principal" style="font-size:40px"> <strong>FORMULÁRIO</strong> </h2>
+
+
+                    <label for="nomesobrenome"> Nome e Sobrenome </label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                    <label for="telefone"> Telefone </label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+                    <label for="email"> Email </label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                    <fieldset>
+                        <legend> Qual horário prefere ser atendido? </legend>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>                    
+
+                        <label for="nomesobrenome"> Cidade </label>
+                        <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                    <label for="mensagem">Descrição do animal pretendido</label>
+                    <textarea name="Mensagem" id="mensagem" cols="64" rows="10" class="input-padrao" required> </textarea>
+
+                    <label class="checkbox"><input type="checkbox">Deseja receber contato de Ongs das cidades vizinhas  </label>
+
+                    <input type="submit" value="Enviar Formulário" class="enviar">   
+
+        </main>
+        <footer>
+
+            <footer>
+                <img src="logo.png">
+                <p class="copyright"> &copy; Copyright Love's Pet 2021 </p>
+    
+    
+         </footer>
+    
+</body>
